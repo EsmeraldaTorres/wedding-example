@@ -19,6 +19,20 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
+        <!-- carousel2 -->
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -121,7 +135,7 @@
             id="audio"
             controls
             autoplay
-            src="./assets/audio/01 Perderme Contigo.mp3"
+            src="./assets/audio/01 Perderme Contigo.mp"
           ></audio>
         </div>
       </section>
@@ -134,10 +148,18 @@
             alt="linea"
           />
         </div> -->
-        <img  data-aos="fade-down" data-aos-duration="3000" class="w-100" src="./assets/img/fecha-jorge.png" alt="">
-        
+        <img  data-aos="fade-down" data-aos-duration="3000" class="w-100 width-30"  src="./assets/img/fecha-jorge.png" alt="">
+        <div class="d-flex justify-content-around align-items-center">
+          <img
+            loading="lazy"
+            class="decoration mt-4 pt-4 "
+            src="./assets/img/lineaalreves.png"
+            alt="linea"
+          />
+        </div> 
         <div class="d-flex flex-column">
           <div class="d-flex justify-content-center">
+
             <p data-aos="fade-up" data-aos-duration="2000" class="pt-4 pb-0 m-0">Faltan</p>
             <!-- <hr class="w-100 text-center" /> -->
           </div>
@@ -183,19 +205,27 @@
             />
           </div>
           <div
-            class="pb-4 mb-4 font-paris text-center animate-text text-main"
+            class="pb-4 mb-4 font-paris text-center animate-text text-main d-flex flex-column align-items-center "
             data-aos="fade-up"
             data-aos-offset="250"
             data-aos-easing="ease-in-sine"
             data-aos-duration="1500"
           >
-          <p class="" data-aos="fade-up" data-aos-duration="3000">
+          <p class="principal-text" data-aos="fade-up" data-aos-duration="3000">
             Hay momentos en la vida que son especiales por si solos, pero compartirlos con las personas que quieres los convierte en momentos inolvidables.
           </p>
-            <p class="" data-aos="fade-up" data-aos-duration="3000">
+            <p class="principal-text" data-aos="fade-up" data-aos-duration="3000">
               Tu presencia ha sido una parte valiosa de nuestra historia de amor, y no podríamos comenzar este nuevo capítulo sin ti. 
             </p>
-            <p class="" data-aos="fade-up" data-aos-duration="3000">
+            <div class="d-flex justify-content-around align-items-center">
+              <img
+                loading="lazy"
+                class="decoration mb-4 pb-4 rotated-element"
+                src="./assets/img/line2.png"
+                alt="linea"
+              />
+            </div>
+            <p class="principal-text" data-aos="fade-up" data-aos-duration="3000">
               Nos encantaría que nos acompañaras y nos llenaras de alegría en nuestro día tan especial.
             </p>
 
@@ -321,10 +351,18 @@
               />
             </div>
           </div>
+
           <p data-aos="zoom-in-up"             
           data-aos-easing="linear"
           data-aos-duration="1500"  class="hora pt-4 text-center display-4">7:00pm</p>
-
+<div class="d-flex justify-content-around align-items-center">
+          <img
+            loading="lazy"
+            class="decoration mb-4 pb-4 rotated-element"
+            src="./assets/img/line2.png"
+            alt="linea"
+          />
+        </div>
           <p data-aos="zoom-in-up"             data-aos-easing="linear"
           data-aos-duration="1500"  class="lead  text-center mr-4 ml-4">
           Calle Sin Nombre, s/n Fracc. Pirámides 76900 Corregidora (Querétaro)
@@ -599,9 +637,72 @@ Jorge Alberto Ruiz Álvarez            </p>
           El inicio de la familia González Ruiz
         </p>
       </section>
+      <section
+        class="recepcion-img bg-white animate-left d-flex justify-content-center align-items-center"
+      >
+        <div class="w-100 overflow-hidden bg-white col-md-5">
+          <img
+          src="./assets/img/pareja-1.jpg"
+            data-aos="zoom-out"
+            data-aos-duration="2000"
+            data-aos-offset="300"
+            class="w-100  overflow-hidden"
+            alt=""
+          />
+        </div>
+        <div class="w-100 overflow-hidden bg-white col-md-5">
+          <img
+          src="./assets/img/pareja-5.jpg"
+          data-aos="zoom-out"
+            class="w-100  overflow-hidden"
+            alt=""
+          />
+        </div>
+        <div class=" overflow-hidden bg-white col-md-5">
+          <img
+          src="./assets/img/pareja-2.jpg"
+          data-aos="zoom-in"
+            data-aos-duration="2000"
+            data-aos-offset="300"
+            class="w-100  overflow-hidden"
+            alt=""
+          />
+        </div>
+        <div class="w-100 overflow-hidden bg-white col-md-5">
+          <img
+          src="./assets/img/pareja-6.jpg"
+          data-aos="zoom-in"
+            class="w-100  overflow-hidden"
+            alt=""
+          />
+        </div>
+        <div class="w-100 overflow-hidden bg-white col-md-5">
+          <img
+          src="./assets/img/pareja-3.jpg"
+          data-aos="zoom-out"
+            data-aos-duration="2000"
+            data-aos-offset="300"
+            class="w-100  overflow-hidden"
+            alt=""
+          />
+        </div>
+        <div class="w-100  overflow-hidden bg-white col-md-5">
+          <img
+          src="./assets/img/pareja-4.jpg"
+          data-aos="zoom-in"
+            data-aos-duration="2000"
+            data-aos-offset="300"
+            class="w-100  overflow-hidden"
+            alt=""
+          />
+        </div>
+
+
+      </section>
+    
       <section class="pase pt-4 pb-4">
         <p         data-aos="zoom-in"
-        data-aos-duration="3000" class="m-0 display-6 font-kala pt-4">
+        data-aos-duration="3000" class="m-0 display-6 font-kala pt-4 principal-text">
         Ya tenemos preparado el viaje, las maletas y el compañero, lo único que nos falta es el dinero...
 
         </p>
@@ -614,7 +715,7 @@ Jorge Alberto Ruiz Álvarez            </p>
           />
         </div> 
         <p          data-aos="zoom-in"
-        data-aos-duration="3000" class="m-0 display-6 font-kala pt-4 pb-4">
+        data-aos-duration="3000" class="m-0 display-6 font-kala pt-4 pb-4 principal-text">
           Si quieres tener un detalle con nosotros, que mejor que nos apoyes con nuestra Luna de Miel.
 
         </p>
@@ -728,11 +829,38 @@ Jorge Alberto Ruiz Álvarez            </p>
       </div>
         </p>
       </section>
-      <section class="overflow-hidden">
+      <section class="overflow-hidden bg-white">
           <div  data-aos="fade-left"
-          data-aos-duration="2500" class="filtro-img"></div>
+          data-aos-duration="2500" class="filtro-img">
+          <div class="d-flex flex-column w-100 align-items-center">
+          <p
+          class="text-white  mt-4 pt-4 text-shadow font-paris titles w-80 display-3 text-center"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          ¡Usa nuestro filtro en la fiesta!
+        </p>
+        <div>
+          <div class="d-flex justify-content-between w-100 p-1 flex-column">
+            <a
+            target="_blank"
+              href="https://www.facebook.com/fbcameraeffects/tryit/8196499680365150/"
+              class="text-center text-white text-main pt-4 mt-4 linksfiltro animate__animated animate__pulse animate__infinite"
+            >
+              <i class="bi bi-facebook text-white"></i>Abrir en facebook
+            </a>
+            <a
+            target="_blank"
+  
+              href="https://www.instagram.com/ar/8196499680365150/"
+              class="text-center text-white text-main pt-4 mt-4 linksfiltro animate__animated animate__pulse animate__infinite"
+            >
+              <i class="bi bi-instagram text-main text-white"></i>Abrir en Instagram
+            </a>
+          </div>
+        </div></div></div>
       </section>
-      <section
+      <!-- <section
       class="recepcion-img  animate-left flex-column d-flex justify-content-center align-items-center"
     >
     <p         class="text-white pt-4rem mt-4 text-shadow font-paris titles w-80 title2 text-center"
@@ -769,7 +897,7 @@ Jorge Alberto Ruiz Álvarez            </p>
           </a>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="text-center h-100 p-4 padding-4 bg-vestimenta">
       <p
         class="display-4 font-gold font-paris mt-4 mb-4 title2"
@@ -785,7 +913,7 @@ Jorge Alberto Ruiz Álvarez            </p>
         data-aos-duration="1500"
 
           loading="lazy"
-          class="w-80 img-vestimenta"
+          class="w-80 img-vestimenta width-30"
           src="./assets/img/etiqueta rigurosa.png"
           alt="dress-code"
         />
@@ -810,17 +938,205 @@ Jorge Alberto Ruiz Álvarez            </p>
     >
     La medida del amor es amar sin medida    </p>
   </section>
+  <section class="p-4 bg-white">
+    <div class="w-100">
+      <p
+        class="text-center mt-4 title2 font-paris font-gold"
+        data-aos="fade-down"
+        data-aos-duration="2000"
+      >
+        Recomendación de hospedaje
+      </p>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="owl-container">
+        <div
+          class="owl-carousel owl-theme"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
+          <div class="d-flex p-3 justify-content-center align-items-center">
+            <div>
+              <div class="d-flex justify-content-center align-items-center flex-column">
+                <h2 data-aos="zoom-in-up"             data-aos-easing="linear"
+                data-aos-duration="1500" class="txt-pink-dark pr-4 pl-4 mb-4 display-5 title2 text-center font-paris">
+                El Cortijo de Los Morales                    </h2>
+                <div class="d-flex justify-content-center align-items-center">
+                  <img
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                    loading="lazy"
+                    class="img-ubicaciones"
+                    src="./assets/img/hotel-h.png"
+                    alt="iglesia"
+                  />
+                </div>
+                
+                  <p                     data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500" class="txt-pink-dark font-paris display-5 pl-2 pr-2
+                text-center  "> <i class="bi bi-car-front-fill "></i> A 1 min de la fiesta</p>
+                                    <p
+                                    data-aos="zoom-in-up"             data-aos-easing="linear"
+                                    data-aos-duration="1500" 
+                                      class="text-infor pt-4 font-aleo  text-center mr-4 ml-4"
+                                    >
+                                    Av. Miguel Hidalgo 82, Xico, 91240 Xico, Ver.
+                                    </p>
+                                    
+                                    <div
+                                      class="d-flex align-items-center py-4 justify-content-center"
+                                    >
+                                      <a
+                                        target="_blank"
+                                        class="text-white"
+                                        href="https://www.google.com/maps/place/El+Cortijo+de+Los+Morales/@19.4203227,-97.0041995,17z/data=!4m23!1m12!3m11!1s0x85c4d3466382639d:0x52ce05e0a9a21fcb!2sEl+Cortijo+de+Los+Morales!5m3!1s2024-05-30!4m1!1i2!8m2!3d19.4203227!4d-97.0041995!10e5!16s%2Fg%2F11b6d6pgr0!3m9!1s0x85c4d3466382639d:0x52ce05e0a9a21fcb!5m3!1s2024-05-30!4m1!1i2!8m2!3d19.4203227!4d-97.0041995!16s%2Fg%2F11b6d6pgr0?entry=ttu"
+                                        ><button
+                                          class="animate__pulse animate__animated animate__infinite btn btn-ver-mapa display-6 py-3 d-flex align-items-center"
+                                        >
+                                          <i class="bi bi-geo-alt font-gold"></i>
+                                          <span
+                                            class="d-flex display-5  font-paris font-gold align-items-center justify-content-center p-0 m-0"
+                                          >
+                                            Ver más detalles
+                                          </span>
+                                        </button></a
+                                      >
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="d-flex p-3 justify-content-center align-items-center">
+            <div>
+                <div class="d-flex justify-content-center align-items-center flex-column">
+                  <h2 data-aos="zoom-in-up"             data-aos-easing="linear"
+                  data-aos-duration="1500" class="txt-pink-dark pr-4 pl-4 mb-4 display-5 title2 text-center font-paris">
+                  Las Magdalenas Hotel Boutique
+                </h2>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                      loading="lazy"
+                      class="img-ubicaciones"
+                      src="./assets/img/las-magdalenas-hotel.png"
+                      alt="iglesia"
+                    />
+                  </div>
+                  
+                    <p                     data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500" class="txt-pink-dark font-paris display-5 pl-2 pr-2 text-center
+                    "> <i class="bi bi-car-front-fill "></i> A 2 min de la fiesta</p>
+                                      <p
+                                      data-aos="zoom-in-up"             data-aos-easing="linear"
+                                      data-aos-duration="1500" 
+                                        class="text-infor pt-4 font-aleo  text-center mr-4 ml-4"
+                                      >
+                                      Av. Miguel Hidalgo 123, Centro, 91240 Xico, Ver.
+                                      </p>
+                                      
+                                      <div
+                                        class="d-flex align-items-center py-4 justify-content-center"
+                                      >
+                                        <a
+                                          target="_blank"
+                                          class="text-white"
+                                          href="https://www.google.com/maps/place/Las+Magdalenas+Hotel+Boutique/@19.4211556,-97.0064769,17z/data=!4m10!3m9!1s0x85c4d358065b7353:0x567bff5825601a31!5m3!1s2024-05-30!4m1!1i2!8m2!3d19.4210443!4d-97.0065319!16s%2Fg%2F1hm41qgps?entry=ttu"
+                                          ><button
+                                            class="animate__pulse animate__animated animate__infinite btn btn-ver-mapa display-6 py-3 d-flex align-items-center"
+                                          >
+                                            <i class="bi bi-geo-alt font-gold"></i>
+                                            <span
+                                              class="d-flex display-5  font-paris font-gold align-items-center justify-content-center p-0 m-0"
+                                            >
+                                              Ver más detalles
+                                            </span>
+                                          </button></a
+                                        >
+                </div>
+                </div>
+              </div>
+          </div> -->
+          <div class="d-flex p-3 justify-content-center align-items-center">
+            <div>
+                <div class="d-flex justify-content-center align-items-center flex-column">
+                  <h2 data-aos="zoom-in-up"             data-aos-easing="linear"
+                  data-aos-duration="1500" class="txt-pink-dark pr-4 pl-4 mb-4 display-5 title2 text-center font-paris">
+                    Hotel el pedregal
+                  </h2>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                      loading="lazy"
+                      class="img-ubicaciones"
+                      src="./assets/img/hotel-el-pedregal.png"
+                      alt="iglesia"
+                    />
+                  </div>
+                  
+                    <p                     data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500" class="txt-pink-dark font-paris display-5 pl-2 pr-2 text-center
+                    "> <i class="bi bi-car-front-fill "></i> A 2 min de la fiesta</p>
+                                      <p
+                                      data-aos="zoom-in-up"             data-aos-easing="linear"
+                                      data-aos-duration="1500" 
+                                        class="text-infor pt-4 font-aleo  text-center mr-4 ml-4"
+                                      >
+                                      Av. Miguel Hidalgo, 91240 Xico, Ver.
+                                      </p>
+                                      
+                                      <div
+                                        class="d-flex align-items-center py-4 justify-content-center"
+                                      >
+                                        <a
+                                          target="_blank"
+                                          class="text-white"
+                                          href="https://www.google.com/maps/place/Hotel+El+Pedregal/@19.5359209,-97.2548998,11.1z/data=!4m21!1m11!3m10!1s0x85c4d325475e3945:0x72c88e2dee57f732!2sHotel+El+Pedregal!5m2!4m1!1i2!8m2!3d19.4182358!4d-96.9979888!10e5!16s%2Fg%2F11qpylqvr9!3m8!1s0x85c4d325475e3945:0x72c88e2dee57f732!5m2!4m1!1i2!8m2!3d19.4182358!4d-96.9979888!16s%2Fg%2F11qpylqvr9?entry=ttu"
+                                          ><button
+                                            class="animate__pulse animate__animated animate__infinite btn btn-ver-mapa display-6 py-3 d-flex align-items-center"
+                                          >
+                                            <i class="bi bi-geo-alt font-gold"></i>
+                                            <span
+                                              class="d-flex display-5  font-paris font-gold align-items-center justify-content-center p-0 m-0"
+                                            >
+                                              Ver más detalles
+                                            </span>
+                                          </button></a
+                                        >
+                </div>
+                </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="window-back2">
     <div class="dinamic-galery text-white text-shadow text-center title2 font-paris"
     data-aos="fade-right"
     data-aos-duration="2500">    Únete a nuestra galería dinámica
   </div>
   </section>
-  <section class="p-4 bg-dinamic-galery">
+  <section class="p-4 bg-dinamic-galery d-flex flex-column justify-content-center align-items-center">
     <h3 class="text-center font-paris letter-s-1px"           data-aos="fade-up"
     data-aos-duration="3000">        ¡Todas las fotos que tomen ustedes, nuestro invitados, las tendremos en una misma galería!
     </h3>
-    <div class="p-3">
+    <div class="d-flex justify-content-around align-items-center">
+      <img
+        loading="lazy"
+        class="decoration mt-4 pt-4 "
+        src="./assets/img/lineaalreves.png"
+        alt="linea"
+      />
+    </div> 
+    <div class="p-3 list">
       <ol>
       <li class="pb-2"             data-aos="fade-down"
       data-aos-duration="3000">
@@ -862,6 +1178,14 @@ data-aos-duration="3000">       Introduce nuestro código <span class="text-unde
           >
             Agradecemos nos des la respuesta de tu asistencia antes del miércoles 1 de Mayo.
           </p>
+          <div class="d-flex justify-content-around align-items-center">
+            <img
+              loading="lazy"
+              class="decoration mt-4 pt-4 "
+              src="./assets/img/lineaalreves.png"
+              alt="linea"
+            />
+          </div> 
           <p             class="w-80 py-4 mb-0 text-dark"
           data-aos="fade-up"
           data-aos-duration="3000"
@@ -938,6 +1262,32 @@ data-aos-duration="3000">       Introduce nuestro código <span class="text-unde
     <script>
       AOS.init();
     </script>
+        <!-- Carousel 2 -->
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script>
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          autoplay: true,
+          nav: true,
+          slideBy: 1,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 1,
+            },
+            1000: {
+              items: 1,
+            },
+          },
+        });
+      </script>
     <!-- boostrp -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
