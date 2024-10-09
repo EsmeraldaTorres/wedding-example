@@ -1195,21 +1195,10 @@ a:hover {
   left: 45px;
 }
 
-/* .timeline ul li:nth-child(odd) div::before {
-      left: -15px;
-      border-width: 8px 16px 8px 0;
-      border-color: transparent #b49e54 transparent transparent;
-    } */
-
 .timeline ul li:nth-child(even) div {
   right: 150;
 }
 
-/* .timeline ul li:nth-child(even) div::before {
-      right: -15px;
-      border-width: 8px 0 8px 16px;
-      border-color: transparent transparent transparent #b49e54;
-    } */
 .time-itinerario {
   font-size: 1rem;
   font-weight: bold;
