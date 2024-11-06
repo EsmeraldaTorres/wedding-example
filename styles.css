@@ -638,6 +638,30 @@ hr {
   background-position: bottom;
   flex-direction: column;
 }
+.btn-language{
+  cursor: pointer;
+  border: none;
+  padding: .5rem .8rem;
+  border-radius: 10px;
+  margin-right: .5rem ;
+  margin-left: .5rem ;
+  font-size: 1.2rem;
+
+}
+.main-image{
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgb(5 7 12 / 59%), rgb(5 7 12 / 67%)), url("./assets/img/paquete-gold.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .filtro-img {
   height: 100vh;
   margin: 0;
