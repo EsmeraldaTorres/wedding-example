@@ -2,13 +2,12 @@ const audio = document.getElementById("audio");
 const playPause = document.getElementById("play");
 
 function abrir() {
-  // document.getElementById("parent-div").classList.remove("test-class");
-  // document.getElementById("xv").classList.add("animate__fadeInUp");
   document.getElementById("parent-div").classList.add("animate__slideOutUp");
   document.getElementById("logo").classList.remove("animate__infinite");
   document.getElementById("pulse").classList.add("hide");
   document.getElementsByTagName("body")[0].classList.remove("avoiding-scroll");
   document.getElementById("invitacion").classList.remove("hide");
+  
   document.getElementById("name").classList.add("animate__zoomIn");
   document.getElementById("cuando").classList.add("animate__zoomIn");
 
@@ -33,7 +32,7 @@ playPause.addEventListener("click", () => {
 
 // a regresiva -------------------------------------------------------------------
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 20, 2025 17:00").getTime();
+var countDownDate = new Date("Jan 20, 2026 17:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
