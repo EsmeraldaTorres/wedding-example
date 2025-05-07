@@ -6,10 +6,10 @@ function abrir() {
   document.getElementById("logo").classList.remove("animate__infinite");
   document.getElementById("pulse").classList.add("hide");
   document.getElementsByTagName("body")[0].classList.remove("avoiding-scroll");
-  document.getElementById("invitacion").classList.remove("hide");
   
+  document.getElementById("invitacion").classList.remove("hide");
   document.getElementById("name").classList.add("animate__zoomIn");
-  document.getElementById("cuando").classList.add("animate__zoomIn");
+  document.getElementById("first-page").classList.add("animate__zoomIn");
 
   audio.play();
 
@@ -75,12 +75,12 @@ var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
 // Si es un dispositivo iOS, cambiar el background-attachment a scroll
 if (isIOS) {
-  document.querySelector(".window-back3").style.backgroundAttachment =
+  document.querySelector(".window-photo").style.backgroundAttachment =
     "initial";
   document.querySelector(".window-back-2").style.backgroundAttachment =
     "initial";
   document.querySelector(".window-regalos").style.backgroundAttachment =
     "initial";
-  document.querySelector(".window-back-3").style.backgroundAttachment =
+  document.querySelector(".window-photo-phrase").style.backgroundAttachment =
     "initial";
 }
